@@ -1,17 +1,46 @@
+### Git Installation
+```
+# Install Git
+$ sudo apt install git
+
+# Checking the installation
+$ git --version
+
+# Generate SSH Key
+$ ssh-keygen -t rsa -b 4096 -C "krakowiakpawel9@gmail.com"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+
+# Checking configuration
+$ ssh -T git@github.com
+
+# Clone existing repository
+$ git clone "https://github.com/krakowiakpawel9/config-python.git"
+```
+
 ### Python - Environment Management - Linux (Ubuntu)
 
-```# Run python
-$ python
+```
+# Run python
 $ python3
 
 # Display python path
-$ which python
 $ which python3
 
 # Display python path with sys package
 $ python3
 >>> import sys
 >>> sys.executable
+
+### Anaconda Installation
+# Go to https://www.anaconda.com/distribution/
+# Find the latest Linux version, download anr run bash script
+$ bash Anaconda3-2019.07-Linux-x86_64.sh
+# Default Location: /home/user/anaconda3
+# Enter 'yes' two times during the installation
+# Verify your installation
+$ which python3
+
 
 # Checking version
 $ conda --version
