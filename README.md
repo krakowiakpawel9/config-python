@@ -49,6 +49,9 @@ $ which python3
 # Checking version
 $ conda --version
 
+# Conda Configuration
+$ conda config --show
+
 # Update conda
 $ conda update conda
 
@@ -72,7 +75,10 @@ $ conda list
 
 # Install package
 $ conda install numpy
+
+# Run command without requiring a user prompt (useful for scripts)
 $ conda install -y numpy
+$ conda install --yes numpy
 
 # List all packages in the environment - checking installation 
 $ conda list
@@ -93,6 +99,12 @@ $ conda search numpy
 # Install specific version
 $ conda install numpy==1.16.0
 
+# Uninstall package
+$ conda uninstall numpy --name ENV_NAME
+
+# Update all packages within an environment
+$ conda update --all --name ENV_NAME
+
 # Remove an environment
 $ conda remove --name my_app --all
 
@@ -104,6 +116,9 @@ $ conda env export --name ENV_NAME > env_name.yml
 
 # Create an environment from the YAML file
 $ conda env create --file env_name.yml
+
+# Create an environment from the file named environment.yml in the current directory
+$ conda env create
 
 ```
 
