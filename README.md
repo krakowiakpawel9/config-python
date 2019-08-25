@@ -42,8 +42,10 @@ $ bash Anaconda3-2019.07-Linux-x86_64.sh
 # Enter 'yes' two times during the installation
 # Verify your installation
 $ which python3
+```
 
-
+### Conda - Virtual Environment
+```
 # Checking version
 $ conda --version
 
