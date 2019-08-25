@@ -31,8 +31,10 @@ $ which python3
 $ python3
 >>> import sys
 >>> sys.executable
+```
 
 ### Anaconda Installation
+```
 # Go to https://www.anaconda.com/distribution/
 # Find the latest Linux version, download anr run bash script
 $ bash Anaconda3-2019.07-Linux-x86_64.sh
@@ -104,7 +106,8 @@ $ conda env create --file env_name.yml
 ```
 
 ### Data Science
-```# Create virtual environment
+```
+# Create virtual environment
 $ conda create --name science python=3.6
 
 # Install Jupyter Notebook
@@ -132,4 +135,5 @@ $ jupyter-notebook
 $ conda install -c anaconda spyder
 
 # Run Spyder
-$ spyder```
+$ spyder
+```
