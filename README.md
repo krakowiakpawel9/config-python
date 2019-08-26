@@ -36,7 +36,7 @@ $ python3
 ### Anaconda Installation
 ```
 # Go to https://www.anaconda.com/distribution/
-# Find the latest Linux version, download anr run bash script
+# Find the latest Linux version, download and run bash script
 $ bash Anaconda3-2019.07-Linux-x86_64.sh
 # Default Location: /home/user/anaconda3
 # Enter 'yes' two times during the installation
