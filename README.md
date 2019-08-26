@@ -7,13 +7,13 @@ $ sudo apt install git
 $ git --version
 
 # Git Configuration
-$ git config --global user.name "krakowiakpawel9'
+$ git config --global user.name "krakowiakpawel9"
 $ git config --global user.email "krakowiakpawel9@gmail.com"
 
 # Generate SSH Key
 $ ssh-keygen -t rsa -b 4096 -C "krakowiakpawel9@gmail.com"
-$ eval "$(ssh-agent -s)"
-$ ssh-add ~/.ssh/id_rsa
+# $ eval "$(ssh-agent -s)"
+# $ ssh-add ~/.ssh/id_rsa
 
 # Checking configuration
 $ ssh -T git@github.com
