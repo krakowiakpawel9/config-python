@@ -20,6 +20,12 @@ $ ssh -T git@github.com
 
 # Clone existing repository
 $ git clone "https://github.com/krakowiakpawel9/config-python.git"
+
+# Check remote url
+$ git remote -v
+
+# Set SSH
+$ git remote set-url origin git@github.com:krakowiakpawel9/config-python.git
 ```
 
 ### Python - Environment Management - Linux (Ubuntu)
