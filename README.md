@@ -164,3 +164,5 @@ $ conda install -c anaconda spyder
 # Run Spyder
 $ spyder
 ```
+
+# Check
