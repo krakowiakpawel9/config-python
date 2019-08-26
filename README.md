@@ -75,7 +75,7 @@ $ conda list
 # Create new environment with specific version of python
 # Default location:
 #    /home/user/anaconda3/envs/my_app
-$ conda create --name my_app python=2.7
+$ conda create --name my_app python=3.6
 
 # Activate the environment
 $ conda activate my_app
