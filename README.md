@@ -1,6 +1,6 @@
 ### Git Installation
 ```
-# Install Git
+# Git Installation
 $ sudo apt install git
 
 # Checking the installation
