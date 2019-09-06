@@ -1,1 +1,1 @@
-[nkjp.pl](www.nkjp.pl)
+[nkjp.pl](http://www.nkjp.pl)
