@@ -164,3 +164,12 @@ $ conda install -c anaconda spyder
 # Run Spyder
 $ spyder
 ```
+
+### Additional
+```
+# Run Jupyter Notebook on a specific server
+$ jupyter-notebook --ip=nazwa.servera.com
+
+# Run Jupyter Lab on a specific server
+$ jupyter-lab --ip=nazwa.servera.com
+```
