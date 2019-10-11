@@ -6,13 +6,13 @@
 ```
 $ sudo apt update
 
-$ sudo apt install python3-pip
-$ sudo apt install jupyter-notebook
+$ sudo apt install python3-pip -y
+$ sudo apt install jupyter-notebook -y
 
-$ sudo apt install openjdk-8-jre-headless
+$ sudo apt install openjdk-8-jre-headless -y
 $ java -version
 
-$ sudo apt-get install scala
+$ sudo apt install scala -y
 $ scala -version
 
 $ pip3 install py4j
