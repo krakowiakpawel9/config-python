@@ -1,7 +1,7 @@
 ### How to configure Jupyter Notebook instance on EC2
 
 **Step 0.** Create key pair. For example spark-keys.pem  
-**Step 1.** Lanuch EC2 instance and connect via SSH (Ubuntu Server 18.04)
+**Step 1.** Lanuch EC2 instance and connect via SSH (Ubuntu Server 18.04)  
 **Step 2.** Run the following commands:
 ```
 $ sudo apt update
