@@ -9,7 +9,7 @@ $ sudo apt update
 $ sudo apt install python3-pip
 $ sudo apt install jupyter-notebook
 
-$ sudo apt-get install default-jre
+$ sudo apt install openjdk-8-jre-headless
 $ java -version
 
 $ sudo apt-get install scala
@@ -38,6 +38,13 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.port = 8888
 ```
 
+Open jupyter notebook instance and type into it:
+```
+import findspark
+findspark.init('/home/ubuntu/spark-2.4.4-bin-hadoop2.7')
+import pyspark
+
+```
 
 
 
