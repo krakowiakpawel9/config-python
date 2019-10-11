@@ -53,3 +53,8 @@ $ pip3 install jupyterlab
 $ screen -mdS jupyter_lab_serving bash -c 'jupyter lab'
 #kill all screens: pkill screen
 ```
+
+Export PATH
+```
+$ export PATH=${PATH}:/home/ubuntu/spark-2.4.4-bin-hadoop2.7/bin
+```
