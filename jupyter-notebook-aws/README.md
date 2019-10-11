@@ -45,3 +45,4 @@ findspark.init('/home/ubuntu/spark-2.4.4-bin-hadoop2.7')
 import pyspark
 
 ```
+Test instalation using `test_env.py` script.
