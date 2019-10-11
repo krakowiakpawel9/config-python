@@ -50,6 +50,6 @@ Test instalation using `test_env.py` script.
 #### Optional, Jupyter Lab
 ```
 $ pip3 install jupyterlab
-screen -mdS jupyter_lab_serving bash -c 'jupyter lab'
+$ screen -mdS jupyter_lab_serving bash -c 'jupyter lab'
 #kill all screens: pkill screen
 ```
