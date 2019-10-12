@@ -58,3 +58,10 @@ Export PATH
 ```
 $ export PATH=${PATH}:/home/ubuntu/spark-2.4.4-bin-hadoop2.7/bin
 ```
+To do this permanently:
+edit .bashrc
+insert into:
+```
+PATH=/home/ubuntu/spark-2.4.4-bin-hadoop2.7/bin:$PATH
+export PATH
+```
