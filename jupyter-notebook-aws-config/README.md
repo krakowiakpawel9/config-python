@@ -73,5 +73,7 @@ save and go to home directory.
 $ mkdir Notebooks
 $ cd Notebooks
 ```
-
-
+11. Start Jupyter Notebook
+```
+$ jupyter notebook
+```
