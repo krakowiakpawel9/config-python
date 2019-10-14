@@ -13,7 +13,7 @@ $ ssh -i 'jupyter-keys.pem' ubuntu@PublicDNS
 4. Download Anaconda, for example
 ```
 $ wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
-# bash Anaconda3-2019.07-Linux-x86_64.sh
+$ bash Anaconda3-2019.07-Linux-x86_64.sh
 ```
 and follow the instructions.
 Default path: `/home/ubuntu/anaconda3`yes
