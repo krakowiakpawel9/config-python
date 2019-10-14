@@ -68,6 +68,7 @@ c.NotebookApp.password = u'sha1:98ff0e580111:12798c72623a6eecd54b51c006b1050f0ac
 c.NotebookApp.port = 8888
 ```
 save and go to home directory.
+
 10. Create directory for notebooks
 ```
 $ mkdir Notebooks
