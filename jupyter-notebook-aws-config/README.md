@@ -31,7 +31,7 @@ In [1]: from IPython.lib import passwd
 In [2]: passwd()
 Enter password:
 Verify password:
-Out [2]: 'sha1:dfvdfvsdkvjhsdocnlsdnclsdcsdcscjnsdlcnosd'
+Out [2]: 'sha1:evcdjnc'
 In [3]: exit
 ```
 7. Create config profile
